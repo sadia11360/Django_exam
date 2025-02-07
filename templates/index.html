@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ title }}</title>
+</head>
+<body>
+    <h1>{{ message }}</h1>
+    {% comment %} <ul> using python for loops {% endcomment %}
+        {% for lang in languages %}
+            <li>{{ lang }}</li>
+        {% endfor %}
+    </ul>
+
+  
+</body>
+</html>
